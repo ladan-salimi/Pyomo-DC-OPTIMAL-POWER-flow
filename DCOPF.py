@@ -45,7 +45,7 @@ model.cons3 = Constraint(rule=cons3)
 def cons4(model,i):
          return(model.p[2]==0)
 model.cons2 = Constraint(rule=cons4)
-# the next line creates one constraint for each member of the set model.I
+# the next line creates data object for inputs
 data.load(filename="opfthreebus.xlsx", range="ladan", format="set", set=model.I)
 data.load(filename="opfthreebus.xlsx", range="ladan", format="set", set=model.J)
 data.load(filename="opfthreebus.xlsx", range="a",param='a',index=model.I)
