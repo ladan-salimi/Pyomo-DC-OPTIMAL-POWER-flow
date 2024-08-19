@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed sep 03 08:17:16 2022
-
-@author: ladan
-"""
 from pyomo.environ import *
 import pandas as pd
 
