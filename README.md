@@ -22,10 +22,6 @@ This project uses Pyomo to solve an Optimal Power Flow (OPF) problem for a three
 - `Pd`: Load demand.
 - `imp`: Impedance matrix.
 
-## Usage
-1. Install dependencies:
-2. Ensure `opfthreebus.xlsx` is in the working directory with correct data.
-3. Run the script to solve the OPF problem:
 
 ## Outputs
 - Optimal power generation for each bus.
