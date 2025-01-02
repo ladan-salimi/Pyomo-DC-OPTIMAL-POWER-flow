@@ -25,7 +25,7 @@ This project uses Pyomo to solve an Optimal Power Flow (OPF) problem for a three
 
 ## Outputs
 - Optimal power generation for each bus.
-- Voltage angles (theta) for each bus.
+- Voltage angles for each bus.
 - Results written to the console and formatted output via Pyomo.
 
 ## License
